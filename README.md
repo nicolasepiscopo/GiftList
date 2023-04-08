@@ -10,6 +10,10 @@ You can run the client from the top-level directory with `node client/index`. Th
 
 Think of the client as the _prover_ here. It needs to prove to the server that some `name` is in the `MERKLE_ROOT` on the server. 
 
+### Update 
+
+You can run `node client/index {name}` to try different names.
+
 ## Server
 
 You can run the server from the top-level directory with `node server/index`. This file is an express server which will be hosted on port 1225 and respond to the client's request.
